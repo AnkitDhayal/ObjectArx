@@ -1,0 +1,6 @@
+; Object_intro.def : Declares the module parameters for the DLL.
+LIBRARY "Exercise5.arx"
+EXPORTS
+    ; Explicit exports can go here
+    acrxEntryPoint PRIVATE
+    acrxGetApiVersion PRIVATE
