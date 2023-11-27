@@ -1,0 +1,7 @@
+; Exercise8.def : Declares the module parameters for the DLL.
+
+LIBRARY "Exercise8.arx"
+EXPORTS
+    ; Explicit exports can go here
+    acrxEntryPoint PRIVATE
+    acrxGetApiVersion PRIVATE
